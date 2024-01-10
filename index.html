@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,16 +14,22 @@
             <h1>Stone Paper Scissor</h1>
         <!-- </div> -->
 
-        <button onclick="myChoice('Stone')">
+        <button class="choice" onclick="myChoice('Stone')">
         <img src="rock.png" alt=""></button>
-        <button onclick="myChoice('Scissor')">
+        <button class="choice" onclick="myChoice('Scissor')">
         <img src="scissors.png" alt=""></button>
-        <button onclick="myChoice('Paper')">
+        <button class="choice" onclick="myChoice('Paper')">
         <img src="paper.png" alt=""></button>
     
         
     </div>
+    <h1>Your Score: <span id="your-score">0</h1>
+    <h1> Oppo Score: <span id="opponent-score">0</h1>
     <h2 id="result"></h2>
+    <div class="btn">
+
+        <button onclick="reset()">Reset</button>
+    </div>
 
 <script src="rps.js"></script>
 </body>
