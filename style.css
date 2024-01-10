@@ -35,6 +35,7 @@ html,body{
 .button button{
     justify-content:center;
     align-items: center;
+    flex-wrap: wrap;
     /* display: flex; */
     /* top: 80px; */
     cursor: pointer;
