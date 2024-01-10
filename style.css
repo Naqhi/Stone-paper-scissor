@@ -36,7 +36,7 @@ html,body{
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
-    /* display: flex; */
+    display: flex;
     /* top: 80px; */
     cursor: pointer;
     border-radius: 50px;
